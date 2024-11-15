@@ -7,6 +7,7 @@ import { useEffect } from "react";
 import CreditSection from "./components/CreditSection";
 import HeroSection from "./components/HeroSection";
 import ScrollSection from "./components/ScrollSection";
+import FooterSection from "./components/FooterSection";
 
 export default function Home() {
   useEffect(() => {
@@ -71,11 +72,10 @@ export default function Home() {
           content="Showcase of animations with GSAP and Next.js"
         />
       </Head>
-      <main>
-        <HeroSection />
-        <ScrollSection />
-        <CreditSection />
-      </main>
+      <HeroSection />
+      <ScrollSection />
+      <CreditSection />
+      <FooterSection />
     </div>
   );
 }
