@@ -2,20 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.triangle {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.hexagon {
+  clip-path: polygon(25% 0%,
+      75% 0%,
+      100% 50%,
+      75% 100%,
+      25% 100%,
+      0% 50%);
+}
+
+.square {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.pentagon {
+  clip-path: polygon(50% 0%, 0% 38%, 19% 100%, 81% 100%, 100% 38%);
+}
+
+.star {
+  clip-path: polygon(50% 0%,
+      61% 35%,
+      98% 35%,
+      68% 57%,
+      79% 91%,
+      50% 70%,
+      21% 91%,
+      32% 57%,
+      2% 35%,
+      39% 35%);
 }
