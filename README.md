@@ -50,20 +50,3 @@ Make sure you have Node.js and npm installed. If not, download and install them 
 4. **Open your browser:**
 
     Navigate to `http://localhost:3000` to view the project in development mode.
-
-### Building for Production
-
-To build the project for production:
-
-```bash
-npm run build
-
-### Explanation
-
-- **Project Structure**: Gives an overview of the key folders and files.
-- **Getting Started**: Detailed instructions for setting up the development environment.
-- **Usage**: Explains the animations and how they are set up, along with tips for customization.
-- **Dependencies**: Lists major libraries used in the project.
-- **Credits and License**: Basic information about licensing and credits to the tools used.
-
-This should be a great start for a README! Let me know if there’s anything specific you want to include.
