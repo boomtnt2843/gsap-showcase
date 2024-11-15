@@ -7,9 +7,11 @@ const HeroSection = () => {
       <p className="animate-subtext text-lg mb-8 max-w-md">
         Explore smooth animations and engaging visual effects with GSAP.
       </p>
-      <button className="animate-button bg-white text-blue-700 px-6 py-3 rounded-md font-semibold">
-        Get Started
-      </button>
+      <a href="https://gsap.com/" target="_blank">
+        <button className="animate-button bg-white text-blue-700 px-6 py-3 rounded-md font-semibold">
+            Get Started
+        </button>
+      </a>
     </main>
   );
 };
