@@ -7,9 +7,6 @@ This project is a showcase of animations created using [GSAP (GreenSock Animatio
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Customization](#customization)
-- [Credits](#credits)
 
 ## Features
 
